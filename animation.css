@@ -1,0 +1,43 @@
+*{
+    background-color: black;
+}
+div{
+  height: 200px;
+  width: 200px;
+  background-color:bisque ;
+  border: 2px solid black;  
+  display: flex;
+  align-items: top ;
+  justify-content: center;
+  position: absolute;
+left: 500px;
+top: 200px;
+color: black;
+animation-name: colorAnimate ;
+animation-duration: 5s;
+animation-timing-function: ease-in-out;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+/* shotcut animation:name(coloranimate) duration(5s) timing function(ease-in) delay(1s) iteration count(infinite) diraction(alternate)
+ */
+
+
+@keyframes colorAnimate {
+    from {
+        left:0px
+    }
+    to{
+       right:100px
+    }
+}
+/* in the place of from and to you can also write 0% 50% 100% */
+@keyframes colorAnimate {
+    from {
+        left:0px
+    }
+    to{
+       right:100px
+    }
+}}

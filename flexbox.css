@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+}
+div{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row-reverse;
+    flex-direction: column; */
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* flex-wrap:wrap-reverse; */
+    align-items:center;
+
+
+}
+/* flex direction:row then direction left to right,if its row reverse then direction right to left,for column it will be top to bottom and for reverse column it will be down to top  and also it will automatically be set(fit) in container*/
+#box1{
+    background-color: aquamarine;
+}
+#box2{
+    background-color: pink;
+}
+#box3{
+    background-color: darkgoldenrod;
+}
+#box4{
+    background-color: grey;
+}
+#box5{
+    background-color: saddlebrown;
+}

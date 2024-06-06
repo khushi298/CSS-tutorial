@@ -1,0 +1,63 @@
+*{
+    color:blueviolet;
+}
+
+
+h1 {
+    color: rgb(114, 114, 27);
+    text-align: left;
+
+}
+/*inline selector*/
+button {
+    color: blue;
+    background-color: darkred;
+}
+body {
+    background-color: rgb(13, 58, 61); 
+    
+}
+/*p {
+  
+}
+/* use online color picker and copy the rgb or hex code , thers is also rgba where a stands for alpha channel where colors opacity se 
+between 0 to 1*/
+/*use coolors website colour pallet to copy appropriet colors pallet for the website*/
+/* *{} for univesre selector* the priority is always high of last written or down side new added command  */
+#heading1{
+    color:red;
+    text-align: left;
+}
+/*for individual color give id in html code and write it starting with# like #heading1 , this is id selector*/
+#heading2{
+    color:mistyrose;
+    
+}
+.write{
+    color: palevioletred;
+    text-decoration: blueviolet overline;
+}
+/* when you want same colou for multiple element then use class give same class name in html and 
+write class selector as .class name like, .write*/
+#box{
+    background-color: blue;
+    line-height: 19px;
+    font-family: Times new roman;
+}
+.heading{
+    color: red;
+}
+
+h1 {
+    text-align: center;
+    text-decoration:underline;
+    text-transform: capitalize;
+}
+#h4 {
+    font-weight: bold;
+}
+#one{
+    font-family: cursive;
+    font-size: 12px;
+}
+

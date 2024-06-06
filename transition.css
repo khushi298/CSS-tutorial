@@ -1,0 +1,37 @@
+*{
+    background-color: black;
+}
+div{
+  height: 200px;
+  width: 200px;
+  background-color:bisque ;
+  border: 2px solid black;
+  /* border-radius: 50%; */
+  color: black;
+  /* transition: all;
+  transition-duration: 3s;
+  /* transition-delay: 1s;
+  transition-timing-function: calc(5);
+  transition: all 5s ease-in-out 0.5s; */
+  display: flex;
+  align-items: top ;
+  justify-content: center;
+/* transform: rotate(45deg); */
+position: absolute;
+left: 500px;
+top: 200px;
+transition: all 3s ease-in;
+
+}
+/* even you can write transition property in one poperty in the form of transition: property(all) duration(3s) timing-function(ease-in-out ) delay(1s) */
+div:hover{
+    background-color: pink;
+    font-size: 30px;
+    /* transform:translate(200px,100px) */
+    transform: skew(180deg);
+
+}
+div:active{
+    color: rgb(29, 3, 29);
+    font-size: 20px;
+}

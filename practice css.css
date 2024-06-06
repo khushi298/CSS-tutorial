@@ -1,0 +1,31 @@
+
+
+#navebar{
+    background-color: purple;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+li{
+    display: inline;
+}
+#outer{
+    background-color: crimson;
+    height: 500px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inner{
+    background-color: darkcyan;
+    height:200px ;
+    width: 200px;
+}
+/* align self has higher priority then align items */
